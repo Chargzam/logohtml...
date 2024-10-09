@@ -26,7 +26,7 @@ body {
     background: url(../img/dochalll.jpg) no-repeat 80% 80%;
     background-size: contain;
     width: 180px;
-    height: 55px;
+    height: 70px;
     float: left;
 }
 .menu {
@@ -35,7 +35,7 @@ body {
 }
 
 .menu a {
-    color:rgb(224, 209, 132);
+    color:rgb(229, 185, 209);
     text-decoration: none;
     font-weight: 600;
     margin-left: 30px;
@@ -58,7 +58,7 @@ header {
 
 header h1 {
     color: white;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    text-shadow: 2px 2px 4px rgba(135, 32, 32, 0.7);
     font-size: 3em;
 }
 
@@ -66,4 +66,25 @@ main {
     max-width: 800px;
     margin: 80px auto 0;
     padding: 20px;
+}
+footer {
+    background-color: rgba(50, 2, 2, 0.8);
+    color: white;
+    padding: 1rem;
+    position: relative;
+    height: 70px;
+}
+footer p {
+    margin: 0;
+    line-height: 70px;
+}
+.logo1 {
+    background: url(../img/logo1.png) no-repeat 80% 80%;
+    background-size: contain;
+    width: 180px;
+    height: 70px;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
 }
